@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a{
+    height: 80vh;
+    border: 1px solid;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/images/burger-gbe5ef30f7_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.menu{
+    height: 80px;
+    border: 1px solid red;
+}
+.logo{
+    width: 8%;
+    /* border: 1px solid blue; */
+    height: 80px;
+    float: left;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.items{
+    width: 92%;
+    height: 80px;
+    float: left;
+}
+.items a{
+    line-height: 80px;
+    color:whitesmoke;
+    text-decoration: none;
+    padding-left: 70px;
+    font-size: 30px;
+}
+.b{
+    margin-left: 100px;
+}
